@@ -54,10 +54,13 @@ int wpos;
         endmsg.setText(winner+" Won!");
         endmsg.setVisibility(View.VISIBLE);
         redo.setClickable(false);
+        winner="";
 
     }
     public void draw(){
+        endmsg.setText("XO Draw!");
         endmsg.setVisibility(View.VISIBLE);
+        redo.setClickable(false);
     }
     public void Tap(View view){
         ImageView img=(ImageView) view;
