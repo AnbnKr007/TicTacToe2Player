@@ -91,9 +91,9 @@ int wpos;
             else if(checkDraw()){
                 draw();
 
-        }
+            }
 
-    }
+        }
     }
     public void redofun(View view){
         activePlayer=(activePlayer==1)?0:1;
